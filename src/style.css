@@ -1,3 +1,43 @@
-body {
-    background-color: purple;
+@font-face {
+    font-family: 'choco';
+    src: url('./fonts/chocolate_bar_demo-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sour';
+    src: url('./fonts/sourgummy-variablefont_wdthwght-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+}
+nav button{
+    font-family: 'sour';
+    border: none;
+    height: 40px;
+    width: 100px;
+    
+}
+nav{
+    height: 10%;
+}
+header span{
+    font-family: 'choco';
+    font-size: 48px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    height: 70%;
 }
