@@ -18,16 +18,21 @@
     padding: 0;
 }
 header {
+    color: #c2410c;
+    background-color: #fde68a;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 20vh;
+    padding-bottom: 20px;
 }
 nav button{
     font-family: 'sour';
     border: none;
     height: 40px;
     width: 100px;
+    background-color: #c2410c;
+    color: #fde68a;
     
 }
 nav{
@@ -40,4 +45,39 @@ header span{
     place-content: center;
     text-align: center;
     height: 70%;
+}
+.content{
+    height: 720px;
+    background-color: #f472b6;
+}
+.hero-img img{
+    height: 720px;
+    width: 880px;
+}
+.content {
+    display: flex;
+    
+}
+.hero-caption {
+    font-size: 24px;
+    gap: 20px;
+    color: #fce7f3;
+    font-family: "sour";
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-caption button {
+    border: none;
+    color: #f472b6;
+    font-family: "sour";
+    height: 40px;
+    width: 100px;
+
+}
+footer {
+    display: flex;
+    justify-content: center;
 }
